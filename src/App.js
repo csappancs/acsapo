@@ -1,11 +1,11 @@
 import './App.css';
-import Underconstruction from './pages/Underconstruction';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
       <div className='sidebar'>
-        <h4>sidebar</h4>
+        <Sidebar/>
       </div>
       <div className='main-content'>
         <h4>content</h4>

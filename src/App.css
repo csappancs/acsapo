@@ -1,0 +1,14 @@
+.App{
+    display: flex;
+    height: 100vh;
+}
+
+.App .sidebar{
+    background-color: lightsteelblue;
+    min-width: clamp(12.5rem, 7.6389rem + 11.1111vw, 18.75rem);
+}
+
+.App .main-content{
+    background-color: bisque;
+    width: 100%;
+}
