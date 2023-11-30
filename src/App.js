@@ -1,9 +1,10 @@
 import './App.css';
+import Underconstruction from './pages/Underconstruction';
 
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
+      <Underconstruction/>
     </div>
   );
 }
