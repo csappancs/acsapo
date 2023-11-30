@@ -1,0 +1,31 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+    min-width: clamp(12.5rem, 7.6389rem + 11.1111vw, 18.75rem);
+}
+
+.sidebar-menu ul{
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar-menu ul li{
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.sidebar img{
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 20% 5% 20% 20%;
+    transition: 0.6s;
+}
+
+.sidebar img:hover{
+    width: 150px;
+    transform: scale(1.1);
+    border-radius: 20% 20% 20% 4%;
+}
