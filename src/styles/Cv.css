@@ -1,14 +1,11 @@
 .cv-header h2{
-    color: var(--bg-blue);
+    color: var(--mint);
     text-align: center;
-}
-
-.cv-header{
-    margin-top: 10%;
 }
 
 .cv-container{
     display: flex;
+    width: 90%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;

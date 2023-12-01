@@ -1,13 +1,22 @@
-.hero-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg-blue);
+.hero-title h2{
     text-align: center;
-    height: 100vh;
+    color: var(--mint);
 }
 
-.hero-title h2{
-    color: var(--mint);
+.hero-title h1{
+    text-align: center;
+    color: white;
+}
+
+.hero-title{
+    padding: 50px;
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    border-radius: 10px 10px 10px 40px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 15px var(--mint);
+}
+
+.hero-title:hover{
+    border-radius: 10px 40px 10px 10px;
 }

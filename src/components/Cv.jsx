@@ -5,7 +5,7 @@ export default function Cv() {
   return (
     <div className='main-container' id='cv'>
         <div className='cv-header'>
-            <h2>Curriculum Vitae</h2>
+            <h2>My wokr experience</h2>
         </div>
         <div className='test-cv'>
             <div className='cv-container'>
