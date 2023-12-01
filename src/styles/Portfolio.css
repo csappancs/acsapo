@@ -16,3 +16,7 @@
     justify-content: center;
     margin: 5%;
 }
+
+#portfolio{
+    background-color: var(--bg-blue);
+}

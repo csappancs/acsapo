@@ -3,7 +3,7 @@ import Portfoliocard from '../components/micro/Portfoliocard.jsx'
 
 export default function Portfolio() {
   return (
-    <div className='portfolio-container' id='portfolio'>
+    <div className='main-container' id='portfolio'>
         <div className='portfolio-title'>
             <h2>My fav projects</h2>
         </div>
