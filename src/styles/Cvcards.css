@@ -1,0 +1,18 @@
+.cvcard-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    margin: 10px;
+    padding: 30px;
+    max-width: 300px;
+    border: 2px solid var(--bg-blue);
+    transition: 0.2s;
+}
+
+.cvcard-title{
+    height: 150px;
+}
+
+.cvcard-container:hover{
+    box-shadow: 0 0 10px var(--bg-blue);
+}

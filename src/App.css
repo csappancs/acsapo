@@ -1,9 +1,0 @@
-.App{
-    display: flex;
-    height: 100vh;
-}
-
-.App .main-content{
-    background-color: bisque;
-    width: 100%;
-}

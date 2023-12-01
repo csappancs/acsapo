@@ -1,0 +1,21 @@
+.cv-header h2{
+    color: var(--bg-blue);
+    text-align: center;
+}
+
+.cv-header{
+    margin-top: 10%;
+}
+
+.cv-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.test-cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
