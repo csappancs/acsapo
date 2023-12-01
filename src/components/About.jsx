@@ -19,7 +19,8 @@ export default function About() {
             <h2>About Me</h2>
         </div>
         <div className='about-text'>
-            <p>
+          <div>
+                        <p>
             As a passionate web developer, I'm dedicated to pushing the boundaries of the digital world. My work revolves around implementing cutting-edge technologies to create online solutions that are not only aesthetically pleasing but also highly functional.
             <br />
             <br />
@@ -31,23 +32,26 @@ export default function About() {
             <br />
             As a web developer, my commitment to modern technologies drives my work. The web is my creative canvas, and I aspire to craft every project uniquely and efficiently in the digital realm.
             </p>
-            <div className='about-tech-logos'>
-                <div className='logos'><img src={ AWSLOGO } alt="" /></div>
-                <div className='logos'><img src={ BOOTSTRAPLOGO } alt="" /></div>
-                <div className='logos'><img src={ CLOUDFLARELOGO } alt="" /></div>
-                <div className='logos'><img src={ CSSLOGO } alt="" /></div>
-                <div className='logos'><img src={ HTMLLOGO } alt="" /></div>
-                <div className='logos'><img src={ JSLOGO } alt="" /></div>
-                <div className='logos'><img src={ PYTHONLOGO } alt="" /></div>
-                <div className='logos'><img src={ REACTLOGO } alt="" /></div>
-                <div className='logos'><img src={ TAILWINDLOGO } alt="" /></div>
-                <div className='logos'><img src={ VERCELLOGO } alt="" /></div>
-                <div className='logos'><img src={ GITHUBLOGO } alt="" /></div>
-            </div>
+          </div>
+          <div className='about-tech-logos'>
+              <div className='logos'><img src={ AWSLOGO } alt="" /></div>
+              <div className='logos'><img src={ BOOTSTRAPLOGO } alt="" /></div>
+              <div className='logos'><img src={ CLOUDFLARELOGO } alt="" /></div>
+              <div className='logos'><img src={ CSSLOGO } alt="" /></div>
+              <div className='logos'><img src={ HTMLLOGO } alt="" /></div>
+              <div className='logos'><img src={ JSLOGO } alt="" /></div>
+              <div className='logos'><img src={ PYTHONLOGO } alt="" /></div>
+              <div className='logos'><img src={ REACTLOGO } alt="" /></div>
+              <div className='logos'><img src={ TAILWINDLOGO } alt="" /></div>
+              <div className='logos'><img src={ VERCELLOGO } alt="" /></div>
+              <div className='logos'><img src={ GITHUBLOGO } alt="" /></div>
+          </div>
             <br />
+          <div>
             <p className="text-under">
-            I am currently working as a freelancer. I am available for hire.
+              I am currently working as a freelancer. I am available for hire.
             </p>
+          </div>
         </div>
     </div>
   )

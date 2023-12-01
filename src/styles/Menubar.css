@@ -13,7 +13,7 @@
     padding: 1rem;
 }
 .navlink{
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .navlink:hover{
@@ -31,6 +31,7 @@
     background-color: var(--mint);
     color: var(--bg-blue);
     font-size: 18px;
+    height: 100%;
     border-radius: 0px;
 }
 

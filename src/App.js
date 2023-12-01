@@ -2,7 +2,6 @@ import About from "./components/About";
 import Cv from "./components/Cv";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
 import Menubar from "./components/Menubar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 {/*import Underconstruction from "./components/Underconstruction";*/}
@@ -21,7 +20,6 @@ function App() {
 
               <Route path="/" element={<Hero/>}/>
             </Routes>
-        <Footer/>
       </BrowserRouter>
     </div>
   );
