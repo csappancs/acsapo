@@ -2,9 +2,9 @@
     display: flex;
     position: fixed;
     justify-content: space-between;
-    background-color: var(--bg-blue);
+    background-color: black;
     width: 100%;
-    box-shadow: 0px 0px 10px 0px var(--mint);
+    box-shadow: 0px 0px 10px 0px white;
 }
 
 .menubar-img a{
@@ -28,7 +28,7 @@
 }
 
 .menu-links button{
-    background-color: var(--mint);
+    background-color: white;
     color: var(--bg-blue);
     font-size: 18px;
     height: 100%;

@@ -30,10 +30,10 @@
 }
 
 :root{
-    --gray-color: #F9F9F9;
-    --bg-blue: #062743;
+    --gray-color: white;
+    --bg-blue: balck;
     --light-blue: #113A5D;
-    --mint: #C4FFDD;
+    --mint: white;
     --h1-size: clamp(3.875rem, 2.3194rem + 3.5556vw, 5.875rem);
     --h2-size: clamp(2.375rem, 1.3056rem + 2.4444vw, 3.75rem);
     --h3-size: clamp(1.25rem, 0.7639rem + 1.1111vw, 1.875rem);
@@ -79,7 +79,7 @@ a{
     font-size: var(--p-size);
     font-weight: 300;
     text-decoration: none;
-    color: #C4FFDD;
+    color: white;
 }
 
 img{

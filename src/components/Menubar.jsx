@@ -5,7 +5,7 @@ export default function Menubar() {
   return (
     <div className='menubar-container'>
       <div className='menubar-img'>
-        <Link to="/">img</Link>
+        <Link to="/"></Link>
       </div>
       <div className='menu-links'>
         <Link to="/" className="navlink">Home</Link>  
